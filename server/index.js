@@ -26,6 +26,4 @@ Connection(URL);
 app.listen(PORT,()=>console.log(`server is live on port ${PORT}`))
 DefaultData();  
 
-export let paytmMerchantKey=process.env.PAYTM_MERCHANT_KEY;
-export let paytmParams={};
  

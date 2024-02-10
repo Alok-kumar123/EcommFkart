@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as actionTypes from '../constants/productsConstants';
 
-const URL='http://localhost:8000';
+const URL='https://ecomm-fkart-server.vercel.app';
 
 export const getProducts=()=>async(dispatch)=>{
     try {

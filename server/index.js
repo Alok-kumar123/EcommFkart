@@ -18,8 +18,8 @@ const URL= process.env.MONGODB_URI||`mongodb://${USERNAME}:${PASSWORD}@ac-jpdynf
 
 app.use(cors(
  {
-  origin:["https://ecomm-fkart-server.vercel.app"],
-  methods:["POST","GET"],
+  origin:["https://ecomm-fkart-client.vercel.app"],
+  methods:["POST","GET","PUT"],
   credentials:true
  }
 ));  //Cross origin resource sharing

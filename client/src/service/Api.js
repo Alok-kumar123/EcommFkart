@@ -2,7 +2,7 @@ import axios from 'axios';
 
  
 
-const URL="http://localhost:8000";
+const URL="https://ecomm-fkart-server.vercel.app";
 export const authenticateSignup = async(data) => {
     try {
        return await axios.post(`${URL}/signup`,data)
